@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "poppins", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+    background-color:lightsteelblue;
+    
+}
+button{
+    background-color: blueviolet;
+    color:white;
+    border: none;
+    padding: 1rem 2rem; 
+    border-radius: 0.3rem;
+    font-size: medium;
+    font-family: inherit;
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: .3s;
+    width: 300px;
+    
+}
+button:active{
+    transform: scale(.96);
+}
+.image{
+    display: flex; 
+    width: 500px;
+    height: 350px;
+    transition: .5s ease-in-out;
+    background: white;
+
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
